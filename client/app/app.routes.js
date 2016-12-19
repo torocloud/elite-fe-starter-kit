@@ -12,10 +12,6 @@
           templateUrl: Config.rootPath + 'components/seed-help/seed-help-view.html',
           controller: 'seedHelp'
         })
-        .when('/list', {
-          templateUrl: Config.rootPath + 'components/list/list-view.html',
-          controller: 'list'
-        })
         .otherwise({
           redirectTo: '/home'
         });

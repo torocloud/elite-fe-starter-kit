@@ -7,8 +7,7 @@
       function link(scope) {
         scope.navLinks = [
           {title: 'Home', href: 'home'},
-          {title: 'HAHelp', href: 'seed-help'},
-          {title: 'List', href: 'list'}
+          {title: 'Help', href: 'seed-help'}
         ];
       }
 
